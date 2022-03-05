@@ -3529,7 +3529,10 @@ input[type="button"].btn-block {
   .navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none; }
   .navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #fff !important;
+    padding-right: 10px;
+    }
 
 .navbar-toggler-icon {
   display: inline-block;
@@ -8022,7 +8025,8 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #82ae46; }
+  color: #f4645f;
+  }
   a:hover, a:focus {
     text-decoration: none;
     color: #82ae46; }
@@ -8059,10 +8063,11 @@ h1, h2, h3, h4, h5,
   }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
+      background: #fff!important;
       position: relative;
       top: 0;
-      padding: 10px 15px; } }
+      padding: 10px 15px;
+      } }
   .ftco-navbar-light.ftco-navbar-light-2 {
     position: relative;
     top: 0; }
@@ -8074,7 +8079,9 @@ h1, h2, h3, h4, h5,
       color: #000000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        color: #fff; } }
+        color: #fff;
+        padding-left: 10px;
+        } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
@@ -8149,6 +8156,7 @@ h1, h2, h3, h4, h5,
     color: #fff;
     font-weight: 700;
     font-size: .8rem;
+    text-align: center;
     }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.active > a {
@@ -8503,7 +8511,8 @@ h1, h2, h3, h4, h5,
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.4); }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
-          background: #fff; }
+          background: #f4645f !important;
+          }
 
 .bg-light {
   background: #f7f6f2 !important; }
@@ -10269,4 +10278,9 @@ textarea.form-control {
 
 .fab:hover {
   color: #f4645f;
+}
+
+.ftco-navbar-light.scrolled .navbar-brand:hover {
+  color: #000 !important;
+  transition: all .4s ease-in-out;
 }
